@@ -1,0 +1,35 @@
+.TaskInput {
+    height: 40px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.TaskInput input {
+    border: 1px #9E78CF solid;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding-left: 15px;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    color: #ffffff;
+}
+
+.TaskInput::placeholder {
+    color: #777777;
+}
+
+.TaskInput button {
+    font-size: 32px;
+    font-weight: 200;
+    border: none;
+    min-width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #9E78CF;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.75%;
+}

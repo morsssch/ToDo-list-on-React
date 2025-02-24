@@ -1,0 +1,9 @@
+.scroll {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.title {
+    color: #ffffff;
+    margin-bottom: 20px;
+}

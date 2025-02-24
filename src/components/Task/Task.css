@@ -1,0 +1,39 @@
+.Task {
+    width: 432px;
+    min-height: 35px;
+    padding: 10px 20px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #15101C;
+    color: #9E78CF;
+    align-items: center;
+}
+
+.TaskButtons {
+    justify-content: space-between;
+    display: flex;
+    width: 75px;
+}
+
+.isDone {
+    text-decoration: line-through;
+    color: #553184;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+input {
+    border: 1px #9E78CF solid;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-left: 15px;
+    outline: none;
+    background-color: transparent;
+    width: 50%;
+    color: #ffffff;
+}
